@@ -1,0 +1,82 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# API keys and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+.secrets/
+secrets/
+
+# Claude.md (contains project-specific information)
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# LangGraph/LangSmith
+.langgraph_api/
+.langserve/
+.langchain/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector stores
+.chroma/
+.qdrant/
+.weaviate/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+.DS_Store
