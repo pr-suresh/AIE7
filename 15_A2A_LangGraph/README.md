@@ -87,9 +87,22 @@ Do this by creating a Simple Agent that can make API calls to the 🤖Agent Node
 
 What are the core components of an `AgentCard`?
 
+##### ✅ Answer:
+ 1. Identity information - name, description, version, url
+ 2. Communication Modes - default_input_modes, default_output_modes
+ 3. Agent Capabilities - streaming, push_notifications
+ 4. Agent skills
+
+
 ### ❓ Question #2:
 
 Why is A2A (and other such protocols) important in your own words?
+
+
+##### ✅ Answer:
+
+A2A protocol is essential because they transform AI from isolated, monolithic systems into collaborative, specialized ecosystems by breaking it into specialized, communicating services, A2A protocols enable the same transformation for AI agents.
+This approach is more scalable, maintainable, cost-effective, and enables rapid innovation through specialized agent development rather than trying to build impossibly complex agents that do everything poorly.
 
 ### 🚧 Advanced Build:
 
